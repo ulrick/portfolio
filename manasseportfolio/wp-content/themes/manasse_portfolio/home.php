@@ -89,13 +89,14 @@ global $themename; global $shortname;
 			<img id="next" src="<?php bloginfo('template_directory') ?>/images/next.jpg" alt="icone" />
 			<img id="prev" src="<?php bloginfo('template_directory') ?>/images/prev.jpg" alt="icone" />
 		</div>
+		
 		<div id = "man_projet">
 	
 			<div class="man_projectbox">
 				<p>Projets Scolaires</p>
 				<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow1" class="slideshow">
 					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/logo_gestform.png" alt="photo1" /> <img
-						id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> <img
+						id="img2" src="<?php bloginfo('template_directory') ?>/images/logo_rkf.jpg" alt="photo2" onMouseOver="this.'" /> <img
 						id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
 				</div></a>
 				<p class="readmorelink">
@@ -109,7 +110,6 @@ global $themename; global $shortname;
 					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/portfolio.png" alt="photo1" /> <img
 						id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> <img
 						id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
-						<p>efgggfg</p>
 				</div></a>
 				<p class="readmorelink">
 					<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
@@ -122,7 +122,6 @@ global $themename; global $shortname;
 					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> <img
 						id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> <img
 						id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
-						<p>efgggfg</p>
 				</div></a>
 				<p class="readmorelink">
 					<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
