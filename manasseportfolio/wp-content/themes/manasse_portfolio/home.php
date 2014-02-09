@@ -14,6 +14,41 @@ global $themename; global $shortname;
 		
 		<div id="man_features">
 		
+			<header id="identite">
+				<div id="cadre_photo" class="description">
+					<div id="cadre_photos">
+						<p><img id="ma_photo" src="<?php bloginfo('template_directory') ?>/images/moi.jpg" alt="Ma photo" title="Moi" /></p>
+						<p><img id="ma_photo2" src="<?php bloginfo('template_directory') ?>/images/moii1.jpg" alt="Ma photo" title="Moi" /></p>
+						<p><img id="ma_photo3" src="<?php bloginfo('template_directory') ?>/images/moid.jpg" alt="Ma photo" title="Moi" /></p>
+					</div>
+					<p id="desc_img">
+						<strong class="nom">MANASSE Yawo F.</strong> <br />
+						Etudiant en Génie Informatique
+					</p>
+				</div>
+				<div id="info" class="description">
+					<p class="description_image">
+						<span class="titre">Age</span> : <script type="text/javascript">
+							document.write(new Date().getFullYear() - 1992)
+						</script> ans<br /><br />
+						<span class="titre">Domaine d'études</span> : Informatique<br /><br />
+						<span class="titre">Filière</span> : Génie Logiciel<br /><br />
+						<span class="titre">Niveau d'études</span> : 2è Cycle 3è Année (BAC+5)<br /><br />
+						<span class="titre">Ecole</span> : UTBM (Université de Technologie Belfort-Montbéliard)
+						
+					</p>
+				</div>
+				<div id="voeux" class="description">
+					<p class="description_image">
+						<span class="titre">Nationalité</span> : Togolaise<br /><br />
+						<span class="titre">Adresse</span> : 06 Rue de Madrid 90000 Belfort<br /><br />
+						<span class="titre">Pays</span> : France<br /><br />
+						<span class="titre">Tel</span> : 07 60 79 77 42<br /><br />
+						<span class="titre">Mail</span> : ymanasse@gmail.com					
+					</p>
+				</div>
+			</header>
+		
 			<div id="features_box1" class="features_box">
 				<a href="<?php bloginfo('url')?>/?page_id=7"><p class="features_box2_texte">
 					FORMATIONS ET DIPLOMES
