@@ -1,56 +1,50 @@
-<?php
-/*
-Template Name: Contenu gallerie basket
-*/
-?>
-
 <?php 
 
-	get_header(); 
+/*
 
-	global $themename;  
+Template Name: Contenu gallerie basket
 
-	global $shortname;  
+*/
+
+global $themename; 
+
+global $shortname; 
+
+get_header(); 
 
 ?>
 
-<!-- #Container Area -->
+<div id="full_Width" class="container_24 clearfix"> <!-- Content -->
 
-<div id="container" class="clearfix">
 
-	<div class="container_24 clearfix">
 
-		<div class="grid_24">
+  <div id="content" class="grid_24">
 
-			<div class="skt-breadcrumb grid_11">
 
-				<?php if ((class_exists('biznez_breadcrumb_class'))) {$biznez_breadcumb->custom_breadcrumb();} ?>
+
+    <div class="skt-breadcrumb grid_11">
+
+		<?php if ((class_exists('biznez_breadcrumb_class'))) {$biznez_breadcumb->custom_breadcrumb();} ?>
+
+	</div>
+
+    <?php if(have_posts()) : ?>
+
+    <?php while(have_posts()) : the_post(); ?>
+
+	<div class="pagetitle-wrap clearfix">
+
+			<div class="page-title grid_11">
+
+				<?php the_title(); ?>
 
 			</div>
 
-			<?php if(have_posts()) : ?>
+		</div><!--pagetitle-warp-->
 
-			<?php while(have_posts()) : the_post(); ?>
+    <div class="post" id="post-<?php the_ID(); ?>">
 
-				<div class="pagetitle-wrap clearfix">
-
-					<div class="page-title grid_11">
-
-						<?php the_title(); ?>
-
-					</div>
-
-				</div>
-
-			<!--pagetitle-warp-->
-
-			<!-- Content -->
-			
-			<div id="content" class="grid_16 alpha">
-
-				<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-				
-					<?php  if(has_post_thumbnail()){ ?>
+		<?php  if(has_post_thumbnail()){ ?>
 						<div class="post-image clearfix">
 							<?php the_post_thumbnail('full'); ?>
 						</div>
@@ -58,35 +52,80 @@ Template Name: Contenu gallerie basket
 					
 					<div class="clear"></div>
 
-					<div class="entry clearfix">
+      <div class="entry clearfix">
 
-						<?php the_content(); ?>
-						<?php wp_link_pages('<p class="clear"><strong>Pages:</strong> ', '</p>', 'number'); ?>
 
-					</div>
 
-				</div>	
+        <?php the_content(); ?>
 
-				<?php endwhile; ?>
 
-				<?php else : ?>
 
-				<div class="post"><h2><?php _e('Not Found','biznez'); ?></h2></div>
+        <?php wp_link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
 
-				<?php endif; ?>		
 
-			</div>
 
-			<!-- Content -->
+        <?php edit_post_link('Edit', '<p>', '</p>'); ?>
 
-		</div>
 
-		</div>
 
-	</div>
+      </div>
+
+
+
+    </div>
+
+
+
+    <?php endwhile; ?>
+
+
+
+    <?php else :  ?>
+
+
+
+    <div class="post">
+
+
+
+      <h2>
+
+
+
+        <?php _e('Not Found','biznez'); ?>
+
+
+
+      </h2>
+
+
+
+    </div>
+
+
+
+    <?php endif; ?>
+
+
+
+    <div class="clear"></div>
+
+
+
+  </div>
+
+
+
+  <div class="clear"></div>
+
+
 
 </div>
 
-<!-- #Container Area -->
+
+
+<!-- content -->
+
+
 
 <?php get_footer(); ?>

@@ -2319,12 +2319,12 @@ h3#reply-title { margin: 0; }
 	display : inline-block;
 	height : 200px;
 	/*border-radius : 40%;*/
-	border : 2px solid #DFE1E5;
+	border : 5px solid #30B7FF;
 	margin : 20px;
 	text-align : center;
 	width : 300px;
 	padding : auto;
-	box-shadow : 10px 10px 10px rgba(0,0,0,0.5);
+	box-shadow : 10px 10px 2px rgba(0,0,0,0.5);
 }
 
 .slideshow img{
@@ -2335,7 +2335,12 @@ h3#reply-title { margin: 0; }
 }
 
 .slideshow:hover{
-	border : 3px solid #30B7FF;
+	border : 5px solid #30B7FF;
+	-webkit-filter: grayscale(100%);
+           -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+             -o-filter: grayscale(100%);
+                filter: grayscale(100%);
 }
 
 #man_projet{
@@ -2397,7 +2402,7 @@ h3#reply-title { margin: 0; }
 	height : 400px;
 	margin : auto;
 	/*padding : 2 15px;*/
-	box-shadow : 5px 5px 15px rgba(0,0,0,0.5) inset;
+	box-shadow : 5px 5px 5px rgba(0,0,0,0.5) inset;
 }
 
 #cadre_photo{
@@ -2407,7 +2412,7 @@ h3#reply-title { margin: 0; }
 	left : 10px;
 	width : 19%;
 	/*height : 250px;*/
-	box-shadow : 5px 7px 10px rgba(0,0,0,0.7) inset;
+	box-shadow : 7px 10px 17px rgba(0,0,0,0.7) inset;
 	/*border : 2px solid #3b5998;*/
 }
 
@@ -2423,7 +2428,7 @@ div#info {
 	top : 20px;
 	left : 23%;
 	width : 34%;
-	box-shadow : 5px 7px 10px rgba(0,0,0,0.7) inset;
+	box-shadow : 7px 10px 27px rgba(0,0,0,0.7) inset;
 	/*border : 2px solid #3b5998;*/
 }
 
@@ -2432,7 +2437,7 @@ div#voeux {
 	top : 20px;
 	left : 61%;
 	width : 38%;
-	/*box-shadow : 5px 7px 10px rgba(0,0,0,0.7) inset;*/
+	box-shadow : 7px 10px 17px rgba(0,0,0,0.7) inset;*/
 	/*border : 2px solid #3b5998;*/
 }
 
@@ -2478,7 +2483,7 @@ span.titre{
 	text-transform : uppercase;
 	font-weight : bold;
 	font-size : 1em;
-	text-shadow: 1px 2px 2px #30B7FF;
+	text-shadow: 1px 1px 1px #30B7FF;
 	/*text-align : justify;*/
 }
 
@@ -2496,22 +2501,43 @@ span.titre{
 }
 
 .loisir-img{
+	position : relative;
 	display : inline-block;
-	border : 5px solid #30B7FF;
-	width : 300px;
-	height : 300px;
-	
+	vertical-align : top;
+	/*border : 5px solid #30B7FF;*/
+	text-align : center; 
+	width : 250px;
+	height : 230px;
+	margin : 25px;
+}
+
+.entry.clearfix{
+/*border : 5px solid #30B7FF;*/
+padding : 10px;
 }
 
 .loisir-img img{
-	/*width : 200px;*/
-	height : 300px;
+	width : 95%;
+	min-height : 215px;
 	border : 5px solid #30B7FF;
-	border-radius : 90%;
+	border-radius : 50%;
 }
 
-.loisir-img img:hover{
-	border : 5px solid #30B7FF;
+.loisir-img-bask{
+	position : absolute;
+	top : 40%;
+	left : 10%;
+	line-height : 40px;
+	color : #30B7FF;
+	font-size : 30px;
+	font-weight : bold;
+	text-shadow : 2px 2px 1px black;
+	z-index : 100;
+}
+
+
+.loisir-img:hover{
+	/*border : 5px solid #30B7FF;*/
 	-webkit-filter: grayscale(100%);
            -moz-filter: grayscale(100%);
             -ms-filter: grayscale(100%);

@@ -1,106 +1,153 @@
-<?php
-/*
-Template Name: Contenu gallerie basket
-*/
-?>
-
 <?php 
 
-	get_header(); 
+/*
 
-	global $themename;  
+Template Name: Contenu gallerie
 
-	global $shortname;  
+*/
+
+global $themename; 
+
+global $shortname; 
+
+get_header(); 
 
 ?>
 
-<!-- #Container Area -->
 
-<div id="container" class="clearfix">
 
-	<div class="container_24 clearfix">
+<div id="full_Width" class="container_24 clearfix"> <!-- Content -->
 
-		<div class="grid_24">
 
-			<div class="skt-breadcrumb grid_11">
 
-				<?php if ((class_exists('biznez_breadcrumb_class'))) {$biznez_breadcumb->custom_breadcrumb();} ?>
+  <div id="content" class="grid_24">
+
+
+
+    <div class="skt-breadcrumb grid_11">
+
+		<?php if ((class_exists('biznez_breadcrumb_class'))) {$biznez_breadcumb->custom_breadcrumb();} ?>
+
+	</div>
+
+    <?php if(have_posts()) : ?>
+
+    <?php while(have_posts()) : the_post(); ?>
+
+	<div class="pagetitle-wrap clearfix">
+
+			<div class="page-title grid_11">
+
+				<?php the_title(); ?>
 
 			</div>
 
-			<?php if(have_posts()) : ?>
+		</div><!--pagetitle-warp-->
 
-			<?php while(have_posts()) : the_post(); ?>
+    <div class="post" id="post-<?php the_ID(); ?>">
 
-				<div class="pagetitle-wrap clearfix">
-
-					<div class="page-title grid_11">
-
-						<?php the_title(); ?>
-
-					</div>
-
-				</div>
-
-			<!--pagetitle-warp-->
-
-			<!-- Content -->
-			
-			<div id="content" class="grid_16 alpha">
-
-				<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-				
-					<?php  if(has_post_thumbnail()){ ?>
-						<div class="post-image clearfix"><a href="https://github.com/ulrick">
-							<?php //the_post_thumbnail('full'); ?></a>
+	<?php  if(has_post_thumbnail()){ ?>
+						<div class="post-image clearfix">
+							<?php the_post_thumbnail('full'); ?>
 						</div>
 					<?php } ?>
 					
 					<div class="clear"></div>
 
-					<div class="entry clearfix">
+      <div class="entry clearfix">
 
-						<?php //the_content(); ?>
-						<?php //wp_link_pages('<p class="clear"><strong>Pages:</strong> ', '</p>', 'number'); ?>
-						
-						<div class="loisir-img">
-							<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> 
-						</div>
-						
-						<div class="loisir-img">
-							<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> 
-						</div>
-						
-						<div class="loisir-img">
-							<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> 
-						</div>
-					</div>
-					<p>Nombre de personnes :
-					<meter min="0" max="100" value="50">50ljhg places</meter></p>
-
-				</div>	
-
-				<?php endwhile; ?>
-
-				<?php else : ?>
-
-				<div class="post"><h2><?php _e('Not Found','biznez'); ?></h2></div>
-
-				<?php endif; ?>		
+        <div class="loisir-img">
+			<a href="<?php bloginfo('url')?>/?page_id=309">
+				<div class="basket-imgs">
+					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/basket1.jpg" alt="photo1" />
+					<img id="img2" src="<?php bloginfo('template_directory') ?>/images/basket2.jpg" alt="photo2" />
+					<img id="img2" src="<?php bloginfo('template_directory') ?>/images/basket3.jpg" alt="photo2" />
+				</div>
+				<p class="loisir-img-bask">La Passion du Basket</p>
+			</a>
+		</div>
+		
+		<div class="loisir-img">
+			<a href="<?php bloginfo('url')?>/?page_id=311">
+				<div class="musique-imgs">
+					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/music1.jpg" alt="photo1" /> 
+					<img id="img2" src="<?php bloginfo('template_directory') ?>/images/music1.jpg" alt="photo2" /> 
+				</div>
+				<p class="loisir-img-bask">L'Amour de la musique</p>
+				
+			</a>
+		</div>
+		
+		<div class="loisir-img">
 			
-
-			</div>
-
-			<!-- Content -->
-
+			<a href="<?php bloginfo('url')?>/?page_id=321">
+				<div class="meskifs-imgs">
+					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/meskifs1.jpg" alt="photo1" />  
+					<img id="img2" src="<?php bloginfo('template_directory') ?>/images/meskifs2.jpg" alt="photo2" /> 
+				</div>
+				<p class="loisir-img-bask">Mes Kifs</p>
+				
+			</a>
 		</div>
 
-		</div>
+      </div>
 
-	</div>
+
+
+    </div>
+
+
+
+    <?php endwhile; ?>
+
+
+
+    <?php else :  ?>
+
+
+
+    <div class="post">
+
+
+
+      <h2>
+
+
+
+        <?php _e('Not Found','biznez'); ?>
+
+
+
+      </h2>
+
+
+
+    </div>
+
+
+
+    <?php endif; ?>
+
+
+
+    <div class="clear"></div>
+
+
+
+  </div>
+
+
+
+  <div class="clear"></div>
+
+
 
 </div>
 
-<!-- #Container Area -->
+
+
+<!-- content -->
+
+
 
 <?php get_footer(); ?>

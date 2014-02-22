@@ -181,40 +181,40 @@ global $themename; global $shortname;
 			
 			<div class = "man_projet_bis">
 	
-			<div class="man_projectbox">
-				<p>Projets Scolaires</p>
-				<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow1" class="slideshow">
-					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/logo_gestform.png" alt="photo1" /> <img
-						id="img2" src="<?php bloginfo('template_directory') ?>/images/logo_rkf.jpg" alt="photo2" onMouseOver="this.'" /> <img
-						id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
-				</div></a>
-				<p class="readmorelink">
-					<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
-				</p>
-			</div>
-			
-			<div class="man_projectbox">
-				<p>Projets Personnels</p>
-				<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow2" class="slideshow">
-					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/portfolio.png" alt="photo1" /> <img
-						id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> 
-				</div></a>
-				<p class="readmorelink">
-					<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
-				</p>
-			</div>
-			
-			<div class="man_projectbox">
-				<p>Autres</p>
-				<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow3" class="slideshow">
-					<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> <img
-						id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> <img
-						id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
-				</div></a>
-				<p class="readmorelink">
-					<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
-				</p>
-			</div>
+				<div class="man_projectbox">
+					<p>Projets Scolaires</p>
+					<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow1" class="slideshow">
+						<img id="img1" src="<?php bloginfo('template_directory') ?>/images/logo_gestform.png" alt="photo1" /> <img
+							id="img2" src="<?php bloginfo('template_directory') ?>/images/logo_rkf.jpg" alt="photo2" onMouseOver="this.'" /> <img
+							id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
+					</div></a>
+					<p class="readmorelink">
+						<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
+					</p>
+				</div>
+				
+				<div class="man_projectbox">
+					<p>Projets Personnels</p>
+					<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow2" class="slideshow">
+						<img id="img1" src="<?php bloginfo('template_directory') ?>/images/portfolio.png" alt="photo1" /> <img
+							id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> 
+					</div></a>
+					<p class="readmorelink">
+						<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
+					</p>
+				</div>
+				
+				<div class="man_projectbox">
+					<p>Autres</p>
+					<a href="<?php bloginfo('url')?>/?page_id=42"><div id="slideshow3" class="slideshow">
+						<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> <img
+							id="img2" src="<?php bloginfo('template_directory') ?>/images/img2.jpg" alt="photo2" /> <img
+							id="img3" src="<?php bloginfo('template_directory') ?>/images/img3.jpg" alt="photo3" />
+					</div></a>
+					<p class="readmorelink">
+						<a href="https://github.com/ulrick" target="_blank"> > Je partage mes codes sources </a>
+					</p>
+				</div>
 			
 			</div>
 			
