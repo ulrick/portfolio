@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: front page
+*/
+?>
+
 <?php global $themename; global $shortname; ?>
 <?php
 if ( 'page' == get_option( 'show_on_front' ) ) {

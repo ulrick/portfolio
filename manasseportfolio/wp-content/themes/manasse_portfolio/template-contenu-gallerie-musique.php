@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contenu Simple
+Template Name: Contenu gallerie musique
 */
 ?>
 
@@ -78,12 +78,6 @@ Template Name: Contenu Simple
 			</div>
 
 			<!-- Content -->
-			
-			<div id="sider-bar" class="grid_7 omega"> 
-
-				<?php get_sidebar(); ?>
-
-			</div>
 
 		</div>
 

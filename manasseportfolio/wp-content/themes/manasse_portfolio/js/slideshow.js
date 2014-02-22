@@ -7,7 +7,16 @@ $("document").ready(function(){
 	});
 	
 	$(".slideshow").cycle({
-		fx : 'fade',
+		fx : 'scrollRight',
+		timeout : 1,
+		speed : 2500,
+		next:   '#next', 
+		prev:   '#prev',
+		random: 2
+	});
+	
+	$("#man_projet").cycle({
+		fx : 'scrollLeft',
 		timeout : 1,
 		speed : 2500,
 		next:   '#next', 
@@ -30,4 +39,21 @@ $("document").ready(function(){
 		next:   '#next', 
 		prev:   '#prev'
 	});*/
+	
+	$("#info").cycle({
+		fx : 'fade',
+		timeout : 2,
+		speed : 2500,
+		
+	});
+	
+	$("#voeux").cycle({
+		fx : 'scrollLeft',
+		timeout : 2,
+		speed : 1500,
+		next:   '#next', 
+		prev:   '#prev',
+		random: 2
+	});
+	
 });

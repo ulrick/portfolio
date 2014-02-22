@@ -93,67 +93,19 @@
 				</div>
 	  </div><!--team-container1-->
 	  
-	  <!--team-container2-->
-	<div class="team-container grid_7">
+	  <div id="sider-bar" class="grid_7 omega"> 
 
-                <div class="member-avatar">
-				  <a href="javascript:void(0);" class="teammember-wrap">
-					 <img class="memberimg" alt="teammember" src="<?php if(sketch_get_option($shortname.'_tm_img2')){ echo sketch_get_option($shortname.'_tm_img2','biznez'); } ?>" width="180" height="180" />
-				  </a>		 
-				</div>
-				<div class="member-data">
-                      <div class="member-name">
-                      		<a href="<?php if(sketch_get_option($shortname.'_tm_weblink2')){ echo esc_url(sketch_get_option($shortname.'_tm_weblink2','biznez')); } ?>"><?php if(sketch_get_option($shortname.'_tm_name2')){ echo sketch_get_option($shortname.'_tm_name2','biznez'); } ?></a>
-                       </div>
-   						<div class="member-position"><?php if(sketch_get_option($shortname.'_tm_job2')){ echo sketch_get_option($shortname.'_tm_job2','biznez'); } ?></div>
-						<?php if(sketch_get_option($shortname.'_tm_content2')){ $content2 = sketch_get_option($shortname.'_tm_content2','biznez'); } ?>
-						<p><?php echo biznez_slider_limit_words($content2, '20'); ?></p>
-						<ul class="teamsocial">
-						
-							<?php if(sketch_get_option($shortname.'_tm_fb2')){ $fb_url2 = esc_url(sketch_get_option($shortname.'_tm_fb2','biznez')); } ?>
-							<?php if(sketch_get_option($shortname.'_tm_tw2')){ $tw_url2 = esc_url(sketch_get_option($shortname.'_tm_tw2','biznez')); } ?>
-							<?php if(sketch_get_option($shortname.'_tm_drd2')){ $drb_url2 = esc_url(sketch_get_option($shortname.'_tm_drd2','biznez')); } ?>
-							<?php if( $fb_url2) { ?><li><a class="tooltip" title="Facebook" href="<?php echo $fb_url2; ?>"><span class="team-fb"></span></a></li><?php } ?>
-							<?php if( $tw_url2) { ?><li><a class="tooltip" title="Twitter" href="<?php echo $tw_url2; ?>"><span class="team-tw"></span></a></li><?php } ?>
-							<?php if( $drb_url2) { ?><li><a class="tooltip" title="Dribble" href="<?php echo $drb_url2; ?>"><span class="team-drb"></span></a></li><?php } ?>
-						</ul>
-				</div>
-	  </div><!--team-container2-->
-	  
-	  <!--team-container3-->
-	<div class="team-container grid_7">
+		<?php get_sidebar(); ?>
 
-                <div class="member-avatar">
-				  <a href="javascript:void(0);" class="teammember-wrap">
-					 <img class="memberimg" alt="teammember" src="<?php if(sketch_get_option($shortname.'_tm_img3')){ echo sketch_get_option($shortname.'_tm_img3','biznez'); } ?>" width="180" height="180" />
-				  </a>		 
-				</div>
-				<div class="member-data">
-                      <div class="member-name">
-                      		<a href="<?php if(sketch_get_option($shortname.'_tm_weblink3')){ echo esc_url(sketch_get_option($shortname.'_tm_weblink3','biznez')); } ?>"><?php if(sketch_get_option($shortname.'_tm_name3')){ echo sketch_get_option($shortname.'_tm_name3','biznez'); } ?></a>
-                       </div>
-   						<div class="member-position"><?php if(sketch_get_option($shortname.'_tm_job3')){ echo sketch_get_option($shortname.'_tm_job3','biznez'); } ?></div>
-						<?php if(sketch_get_option($shortname.'_tm_content3')){ $content3 = sketch_get_option($shortname.'_tm_content3','biznez'); } ?>
-						<p><?php echo biznez_slider_limit_words($content3, '20'); ?></p>
-						<ul class="teamsocial">
-						
-							<?php if(sketch_get_option($shortname.'_tm_fb3')){ $fb_url3 = esc_url(sketch_get_option($shortname.'_tm_fb3','biznez')); } ?>
-							<?php if(sketch_get_option($shortname.'_tm_tw3')){ $tw_url3 = esc_url(sketch_get_option($shortname.'_tm_tw3','biznez')); } ?>
-							<?php if(sketch_get_option($shortname.'_tm_drd3')){ $drb_url3 = esc_url(sketch_get_option($shortname.'_tm_drd3','biznez')); } ?>
-							<?php if( $fb_url3) { ?><li><a class="tooltip" title="Facebook" href="<?php echo $fb_url3; ?>"><span class="team-fb"></span></a></li><?php } ?>
-							<?php if( $tw_url3) { ?><li><a class="tooltip" title="Twitter" href="<?php echo $tw_url3; ?>"><span class="team-tw"></span></a></li><?php } ?>
-							<?php if( $drb_url3) { ?><li><a class="tooltip" title="Dribble" href="<?php echo $drb_url3; ?>"><span class="team-drb"></span></a></li><?php } ?>
-						</ul>
-				</div>
-	  </div><!--team-container3-->
+	</div>
+	 
 
   </div><!--row-member-->
 
 
 
  </div><!-- our_team_member -->
-
- <?php edit_post_link('Edit', '<p>', '</p>'); ?>
+ 
 
  </div>
 
@@ -162,6 +114,7 @@
 </div>
 
 <!-- content -->
+<
 
 
 

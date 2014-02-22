@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contenu Simple
+Template Name: Contenu gallerie basket
 */
 ?>
 
@@ -51,8 +51,8 @@ Template Name: Contenu Simple
 				<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 				
 					<?php  if(has_post_thumbnail()){ ?>
-						<div class="post-image clearfix">
-							<?php the_post_thumbnail('full'); ?>
+						<div class="post-image clearfix"><a href="https://github.com/ulrick">
+							<?php //the_post_thumbnail('full'); ?></a>
 						</div>
 					<?php } ?>
 					
@@ -60,10 +60,23 @@ Template Name: Contenu Simple
 
 					<div class="entry clearfix">
 
-						<?php the_content(); ?>
-						<?php wp_link_pages('<p class="clear"><strong>Pages:</strong> ', '</p>', 'number'); ?>
-
+						<?php //the_content(); ?>
+						<?php //wp_link_pages('<p class="clear"><strong>Pages:</strong> ', '</p>', 'number'); ?>
+						
+						<div class="loisir-img">
+							<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> 
+						</div>
+						
+						<div class="loisir-img">
+							<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> 
+						</div>
+						
+						<div class="loisir-img">
+							<img id="img1" src="<?php bloginfo('template_directory') ?>/images/img1.jpg" alt="photo1" /> 
+						</div>
 					</div>
+					<p>Nombre de personnes :
+					<meter min="0" max="100" value="50">50ljhg places</meter></p>
 
 				</div>	
 
@@ -74,16 +87,11 @@ Template Name: Contenu Simple
 				<div class="post"><h2><?php _e('Not Found','biznez'); ?></h2></div>
 
 				<?php endif; ?>		
+			
 
 			</div>
 
 			<!-- Content -->
-			
-			<div id="sider-bar" class="grid_7 omega"> 
-
-				<?php get_sidebar(); ?>
-
-			</div>
 
 		</div>
 
