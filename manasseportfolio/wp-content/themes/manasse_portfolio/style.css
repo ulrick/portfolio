@@ -2252,6 +2252,11 @@ h3#reply-title { margin: 0; }
 /* mon css perso
 ------------------------------*/
 
+/* mon css perso
+
+design page accueil
+------------------------------*/
+
 /*#man_slide{
 	position : relative;
 	width : auto;
@@ -2259,6 +2264,59 @@ h3#reply-title { margin: 0; }
 	height : 350px;
 	text-align : center; 
 }*/
+
+header#identite-accueil{
+	/*position : relative;*/
+	width : 100%;
+	height : 450px;
+	text-align : center;
+	padding : auto;
+	padding-top : 25px;
+	background : #30b7ff;
+}
+
+#voeux-accueil {
+	position : relative;
+	margin : auto;
+	width : 75%;
+	/*border : 2px solid #3b5998;*/
+}
+
+#voeux-infos-accueil{
+	position : absolute;
+	background : black;
+	opacity : .6;
+	top : 45%;
+	left : 4%;
+	color : #fff;
+	width : 40%;
+	height : 185px;
+	z-index : 100;
+}
+
+#voeux-infos-accueil p{
+	padding : 15px;
+	font-size : 50px;
+	/*font-weight : bold;*/
+	line-height : 60px;
+}
+
+#voeux-infos-accueil a{
+	text-decoration : none;
+	color : #fff;
+}
+
+#voeuxs-accueil .description_image-accueil img{
+	/*position : absolute;*/
+	/*max-width : 500px;*/
+	/*height : 190px;*/
+}
+
+
+/* mon css perso
+
+design page portfolio
+------------------------------*/
 
 #man_features{
 	width : 100%;
@@ -2426,8 +2484,8 @@ h3#reply-title { margin: 0; }
 div#info {
 	position : absolute;
 	top : 20px;
-	left : 23%;
-	width : 34%;
+	left : 22%;
+	width : 32%;
 	box-shadow : 7px 10px 27px rgba(0,0,0,0.7) inset;
 	/*border : 2px solid #3b5998;*/
 }
@@ -2435,9 +2493,9 @@ div#info {
 div#voeux {
 	position : absolute;
 	top : 20px;
-	left : 61%;
-	width : 38%;
-	box-shadow : 7px 10px 17px rgba(0,0,0,0.7) inset;*/
+	left : 57%;
+	width : 42%;
+	box-shadow : 7px 10px 17px rgba(0,0,0,0.7) inset;
 	/*border : 2px solid #3b5998;*/
 }
 
@@ -2490,7 +2548,8 @@ span.titre{
 .description{
 	background : #E8EBF1;
 	height : 300px;
-	font-size : 1.3em;
+	font-size : 1.5em;
+	/*line-height : 22px;*/
 	overflow : auto;
 }
 
@@ -2543,5 +2602,30 @@ padding : 10px;
             -ms-filter: grayscale(100%);
              -o-filter: grayscale(100%);
                 filter: grayscale(100%);
+	
+}
+
+
+#voeux{
+	position : relative;
+}
+
+#voeux-infos{
+	position : absolute;
+	/*background : #E8EBF1;*/
+	background : black;
+	opacity : .6;
+	top : 45%;
+	left : 5%;
+	line-height : 45px;
+	/*color : #30B7FF;*/
+	color : #fff;
+	font-size : 40px;
+	font-weight : 50px;
+	/*text-shadow : 2px 2px 1px white;*/
+	width : 50%;
+	height : 120px;
+	padding:15px;
+	z-index : 100;
 	
 }

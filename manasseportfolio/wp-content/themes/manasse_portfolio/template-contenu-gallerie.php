@@ -46,14 +46,6 @@ get_header();
 
     <div class="post" id="post-<?php the_ID(); ?>">
 
-	<?php  if(has_post_thumbnail()){ ?>
-						<div class="post-image clearfix">
-							<?php the_post_thumbnail('full'); ?>
-						</div>
-					<?php } ?>
-					
-					<div class="clear"></div>
-
       <div class="entry clearfix">
 
         <div class="loisir-img">
