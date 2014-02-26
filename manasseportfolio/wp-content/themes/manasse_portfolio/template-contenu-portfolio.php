@@ -23,7 +23,7 @@ global $themename; global $shortname;
 			<header id="identite">
 				<div id="cadre_photo" class="description">
 					<div id="cadre_photos">
-						<p><img id="ma_photo" src="<?php bloginfo('template_directory') ?>/images/moi.jpg" alt="Ma photo" title="Moi" /></p>
+						<p><img id="ma_photo1" src="<?php bloginfo('template_directory') ?>/images/moi.jpg" alt="Ma photo" title="Moi" /></p>
 						<p><img id="ma_photo2" src="<?php bloginfo('template_directory') ?>/images/moii1.jpg" alt="Ma photo" title="Moi" /></p>
 						<p><img id="ma_photo3" src="<?php bloginfo('template_directory') ?>/images/moid.jpg" alt="Ma photo" title="Moi" /></p>
 					</div>
@@ -69,11 +69,13 @@ global $themename; global $shortname;
 					
 					</div>
 					<div id="voeux-infos">
-						<p class="voeux-info">You Design, I Code!!</p>
+						<p class="voeux-info">Vous concevez... Je Code!!</p>
 						<p class="voeux-info">Je Partage, Je Reçois!!</p>
 						<p class="voeux-info">Faites concevoir vos sites Web</p>
 						<p class="voeux-info">Je partage mes codes sources</p>
 						<p class="voeux-info">Développement d'applications Web</p>
+						<p class="voeux-info">Partageons nos connaissances...</p>
+						<p class="voeux-info">Développons ensemble...</p>
 					</div>
 				</div>
 			</header>
@@ -141,7 +143,7 @@ global $themename; global $shortname;
 					Mes Passions.
 				</p>
 				<p class="readmorelink">
-					<a href="<?php bloginfo('url')?>/?page_id=42"> > Plus </a>
+					<a href="<?php bloginfo('url')?>/?page_id=46"> > Plus </a>
 				</p>
 			</div>
 		</div>

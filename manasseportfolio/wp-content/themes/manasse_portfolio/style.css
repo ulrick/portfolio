@@ -2352,7 +2352,9 @@ design page portfolio
 
 .features_box a{
 	text-decoration : none;
+	/*color : #353535;*/
 	color : #353535;
+	text-shadow : 1px 1px 1px #30B7FF;
 }
 
 .features_box a:hover{
@@ -2623,7 +2625,7 @@ padding : 10px;
 	font-size : 40px;
 	font-weight : 50px;
 	/*text-shadow : 2px 2px 1px white;*/
-	width : 50%;
+	width : 55%;
 	height : 120px;
 	padding:15px;
 	z-index : 100;

@@ -75,7 +75,7 @@
 					 <img class="memberimg" alt="teammember" src="<?php if(sketch_get_option($shortname.'_tm_img1')){ echo sketch_get_option($shortname.'_tm_img1','biznez'); } ?>" width="180" height="180" />
 				  </a>		 
 				</div>
-				<div class="member-data">
+				<div class="member-data" style="text_align:center;">
                       <div class="member-name">
                       		<a href="<?php if(sketch_get_option($shortname.'_tm_weblink1')){ echo esc_url(sketch_get_option($shortname.'_tm_weblink1','biznez')); } ?>"><?php if(sketch_get_option($shortname.'_tm_name1')){ echo sketch_get_option($shortname.'_tm_name1','biznez'); } ?></a>
                        </div>

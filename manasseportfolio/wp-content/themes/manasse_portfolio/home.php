@@ -35,6 +35,8 @@ global $themename; global $shortname;
 				<a href="https://github.com/ulrick" target="_blank"><p class="voeux-info">Je partage mes codes sources</p></a>
 				<a href="#"><p class="voeux-info">Développement d'applications Web</p></a>
 				<a href="<?php bloginfo('url')?>/?page_id=442"><p class="voeux-info">Me connaître davantage...</p></a>
+				<a href="<?php bloginfo('url')?>/?page_id=60"><p class="voeux-info">Partageons nos connaissances...</p></a>
+				<a  href="https://github.com/ulrick" target="_blank"><p class="voeux-info">Développons ensemble...</p></a>
 			</div>
 		</div>
 	</header>
