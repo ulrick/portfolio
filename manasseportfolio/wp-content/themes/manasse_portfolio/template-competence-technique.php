@@ -62,21 +62,55 @@ Template Name: Contenu compétence technique
 
 						<?php //the_content(); ?>
 						<?php //wp_link_pages('<p class="clear"><strong>Pages:</strong> ', '</p>', 'number'); ?>
+						
+						<div class="cv-skills">
+							<span class="cv-skills-title"><strong>Technologies et Langages de programmation </strong></span>
+							
+							<p class="cv-skills-content">HTML5, CSS3</p>
+							<progress max="100" value="90" class="html5">
+								<div class="progress-bar">
+									<span style="width: 90%">90%</span>
+								</div>
+							</progress>
+							
+							<p class="cv-skills-content">PHP, WORDPRESS </p>
+							<progress max="100" value="75" class="html5">
+								<div class="progress-bar">
+									<span style="width: 75%">75%</span>
+								</div>
+							</progress>
+							
+							<p class="cv-skills-content">JAVA SWING/AWT, JAVA EE  </p>
+							<progress max="100" value="70" class="html5">
+								<div class="progress-bar">
+									<span style="width: 70%">70%</span>
+								</div>
+							</progress>
+							
+							
+							<p class="cv-skills-content">JAVASCRIPT, AJAX, JQUERY</p>
+							<progress max="100" value="65" class="html5">
+								<div class="progress-bar">
+									<span style="width: 65%">65%</span>
+								</div>
+							</progress>
+							
+							<p class="cv-skills-content">HIBERNATE, JPA, MAVEN, GOOGLE API</p>
+							<progress max="100" value="60" class="html5">
+								<div class="progress-bar">
+									<span style="width: 60%">60%</span>
+								</div>
+							</progress>
+							
+						</div>
+						
 						<div class="cv-skills">
 							<span class="cv-skills-title"><strong>Outils d'analyses</strong></span>
-							<p class="cv-skills-content">UML</p>
+							<p class="cv-skills-content">UML, MERISE</p>
 							
-							<progress max="100" value="50" class="html5">
+							<progress max="100" value="70" class="html5">
 								<div class="progress-bar">
-									<span style="width: 50%">50%</span>
-								</div>
-							</progress> 
-							
-							<p class="cv-skills-content">MERISE</p>
-							
-							<progress max="100" value="50" class="html5">
-								<div class="progress-bar">
-									<span style="width: 50%">50%</span>
+									<span style="width: 70%">70%</span>
 								</div>
 							</progress> 
 							
@@ -92,68 +126,13 @@ Template Name: Contenu compétence technique
 								</div>
 							</progress>
 							
-							<p class="cv-skills-content">ORACLE 10G, ORACLE 11G</p>
-							<progress max="100" value="60" class="html5">
+							<p class="cv-skills-content">ORACLE 10G, ORACLE 11G, SQL-Server 2008R2</p>
+							<progress max="100" value="55" class="html5">
 								<div class="progress-bar">
-									<span style="width: 60%">60%</span>
-								</div>
-							</progress>
-							
-							<p class="cv-skills-content">SQL-Server 2008R2</p>
-							<progress max="100" value="50" class="html5">
-								<div class="progress-bar">
-									<span style="width: 50%">50%</span>
+									<span style="width: 55%">55%</span>
 								</div>
 							</progress>
 						
-						</div>
-
-						<div class="cv-skills">
-							<span class="cv-skills-title"><strong>Langages de programmation </strong></span>
-							<p class="cv-skills-content">JAVASCRIPT, JSP, JQUERY, HIBERNATE, SQL, MAVEN</p>
-						
-							<p class="cv-skills-content">JAVA SWING</p>
-							<progress max="100" value="70" class="html5">
-								<div class="progress-bar">
-									<span style="width: 70%">70%</span>
-								</div>
-							</progress>
-							
-							<p class="cv-skills-content">JAVA EE</p>
-							<progress max="100" value="60" class="html5">
-								<div class="progress-bar">
-									<span style="width: 60%">60%</span>
-								</div>
-							</progress>
-							
-							<p class="cv-skills-content">PHP</p>
-							<progress max="100" value="80" class="html5">
-								<div class="progress-bar">
-									<span style="width: 80%">80%</span>
-								</div>
-							</progress>
-							
-							<p class="cv-skills-content">HTML5</p>
-							<progress max="100" value="90" class="html5">
-								<div class="progress-bar">
-									<span style="width: 90%">90%</span>
-								</div>
-							</progress>
-							
-							<p class="cv-skills-content">CSS3</p>
-							<progress max="100" value="90" class="html5">
-								<div class="progress-bar">
-									<span style="width: 90%">90%</span>
-								</div>
-							</progress>
-							
-							<p class="cv-skills-content">JAVASCRIPT</p>
-							<progress max="100" value="60" class="html5">
-								<div class="progress-bar">
-									<span style="width: 60%">60%</span>
-								</div>
-							</progress>
-							
 						</div>
 
 						<div class="cv-skills-bis">

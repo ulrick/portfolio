@@ -108,7 +108,7 @@ global $themename; global $shortname;
 			
 			<div id="features_box3" class="features_box">
 				<a href="<?php bloginfo('url')?>/?page_id=42"><p class="features_box2_texte">
-					PROJETS SCOLAIRES ET PERSONNEL
+					PROJETS SCOLAIRES ET PERSONNELS
 				</p></a>
 				<p>
 					L'amour du code.<br />
