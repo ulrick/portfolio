@@ -36,7 +36,7 @@
 
         <?php the_content();?>
 		<?php
-			echo'<p style="text-align: justify;">J\'adore coder et je possède des compétences en programmation, notamment le développement  d\'applications Web. Je possède aussi des connaissances en matière d\'administration de Base de Données et du Réseaux.</p>';
+			/*echo'<p style="text-align: justify;">J\'adore coder et je possède des compétences en programmation, notamment le développement  d\'applications Web. Je possède aussi des connaissances en matière d\'administration de Base de Données et du Réseaux.</p>';
 			echo'<p style="text-align: justify;">Autodidacte, j\'aime beaucoup apprendre de nouvelles choses. J\'aime travailler et j\'ai une facilité d\'intégration professionnelle. Je fais preuve d\'autonomie et sais prendre des initiatives lorsque cela s\'avère nécessaire.  Mes précédents stages et la réalisation des projets scolaires m\'ont permis de développer mon sens de l\'analyse, du relationnel et de travailler aussi bien en équipe que de façon autonome.</p>';
 			echo'<p style="text-align: justify;">Au cours de mes formations et mes réalisations (scolaires ou personnelles), J\'ai déjà touché du doigts les technologies suivantes : JAVA EE, JSP, MAVEN, HIBERNATE, PHP, JAVASCRIPT, JQUERY, AJAX,  SQL, GOOGLE JUICE, GOOGLE MAP API, WORDPRESS... Je maîtrise le HTML5 et le CSS3.</p>';
 			
@@ -48,7 +48,7 @@
 
 			echo'<p style="text-align: justify;"><strong><a href="https://github.com/ulrick" target="_blank">Je partage mes codes sources.</a></strong></p>';
 
-			echo'<p style="text-align: justify;"><strong><a href="https://github.com/ulrick" target="_blank">Développons ensemble...</a></strong></p>';
+			echo'<p style="text-align: justify;"><strong><a href="https://github.com/ulrick" target="_blank">Développons ensemble...</a></strong></p>';*/
 		?>
 
       </div>
