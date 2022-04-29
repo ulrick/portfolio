@@ -4,42 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
     <title>YAWO MANASSE</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">PROJETS</a>
-            <a href="#">COMPETENCES</a>
-            <a href="#">EXPERIENCES PROFESSIONNELLES</a>
-            <a href="#">FORMATIONS</a>
-            <a href="#">VIE SOCIALE</a>
-            <a href="#">ME SUIVRE</a>
-            <a href="#">CONTACT</a>
-        </nav>
-        <logo>
-            <img src="images/1_HEADER-Logo.png" alt="logo-Yawo_Manasse">
-        </logo>
-        <section class="mantras">
-            <div class="presentation">
-                <h1>DEVELOPPEUR</h1>
-                <h1>WEB & MOBILE</h1>
-                <p>Jeune cadre en informatique, ingenieur d' etudes et de developpement, je possede des competences en programmation et developpe des Web et Mobile.</p>
-                <p>Passionne par mon domaine, chaque projet que je realise est une nouvelle experience me permettant de monter en competence.</p>
+        <nav class="navbar navbar-expand-lg yawo-nav-menu">
+            <div class="container">
+                <button class="navbar-toggler btn-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">PROJETS</a>
+                        <a class="nav-link" href="#">COMPETENCES</a>
+                        <a class="nav-link" href="#">EXPERIENCES PROFESSIONNELLES</a>
+                        <a class="nav-link" href="#">FORMATIONS</a>
+                        <a class="nav-link" href="#">VIE SOCIALE</a>
+                        <a class="nav-link" href="#">ME SUIVRE</a>
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </div>
+                    
+                </div>
+                
             </div>
-            <div class="esprit">
-                <figure>
-                    <img class="quote1" src="images/1_HEADER-Quotation1.png" alt="yawo-quotation1">
-                    <h1>Un ESPRIT libre dans un monde LIBRE!</h1>
-                    <p>Telle est ma pensee, qui me fait plonger dans un monde de partage ou tout les codes deviennent un.</p>
-                    <img class="quote2" src="images/1_HEADER-Quotation2.png" alt="yawo-quotation2">
-                    <a href="#">TELECHARGER MON CV</a>
-                </figure>
+        </nav>
+        <section class="container-fluid mantras">
+            <div class="container mantras-container">
+                <logo class="logo">
+                    <img src="assets/images/1_HEADER-Logo.png" alt="logo-Yawo_Manasse">
+                </logo>
+                <div class="mantras-content row">
+                    <div class="presentation col-6">
+                        <h1>Développeur</h1>
+                        <h1>Web & Mobile</h1>
+                        <p>Jeune cadre en informatique, ingénieur d'études et de développement, 
+                            je possède des compétences en programmation et développe des applications Web et Mobile.</p>
+                        <p>Passionné par mon domaine, chaque projet que je réalise est une nouvelle expérience qui me permet de monter en compétence.</p>
+                    </div>
+                    <div class="esprit col-6">
+                        <figure class="esprit-content">
+                            <img class="quote1" src="assets/images/1_HEADER-Quotation1.png" alt="yawo-quotation1">
+                            <h1>Un ESPRIT libre dans un monde LIBRE!</h1>
+                            <img class="quote2" src="assets/images/1_HEADER-Quotation2.png" alt="yawo-quotation2">
+                            <p>Telle est ma pensee, qui me fait plonger dans un monde de partage ou tout les codes deviennent un.</p>
+                            <a href="https://manasse-yawo.com/img/CV/CV_Manasse_web_mobile.pdf">Télécharger mon CV</a>
+                        </figure>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="magi-dev">
-            <img src="images/1_HEADER-Quotation1.png" alt="yawo-quotation1">
+            <img src="assets/images/1_HEADER-Quotation1.png" alt="yawo-quotation1">
             <span>
                 <p>SUIS-JE UN GEEK?<br>NON JE SUIS UN <strong>DEVELOPPEUR</strong>.<br>
                 JE CONCOIS DU CODE ET J'EN FAIS QUELQUECHOSE D'EXTRAORDINAIRE. <br>
@@ -53,7 +72,7 @@
                     JE SUIS UN </p>
                 <h3>DEVELOPPEUR</h3>
             </span>
-            <img src="images/1_HEADER-Quotation2.png" alt="yawo-quotation2">
+            <img src="assets/images/1_HEADER-Quotation2.png" alt="yawo-quotation2">
 
         </section>
     </header>
@@ -64,19 +83,19 @@
             </div>
             <a href="http://">TOUS MES PROJETS</a>
             <figure>
-                <img src="images/3_PROJETS-1-StrasbourgApp.jpg" alt="yawo-projets-strasbourg">
+                <img src="assets/images/3_PROJETS-1-StrasbourgApp.jpg" alt="yawo-projets-strasbourg">
                 <figcaption class="version">00.00.0000</figcaption>
                 <figcaption class="nom">STRASBOURG PARKING</figcaption>
                 <figcaption class="type">Application Mobile</figcaption>
             </figure>
             <figure>
-                <img src="images/3_PROJETS-2-FimApp.jpg" alt="yawo-projets-fimu">
+                <img src="assets/images/3_PROJETS-2-FimApp.jpg" alt="yawo-projets-fimu">
                 <figcaption class="version">00.00.0000</figcaption>
                 <figcaption class="nom">FIMUAPP</figcaption>
                 <figcaption class="type">Application Android Mobile</figcaption>
             </figure>
             <figure>
-                <img src="images/3_PROJETS-3-BasketBelfort.jpg" alt="yawo-projets-basket">
+                <img src="assets/images/3_PROJETS-3-BasketBelfort.jpg" alt="yawo-projets-basket">
                 <figcaption class="version">00.00.0000</figcaption>
                 <figcaption class="nom">BASKET CLUB BELFORT</figcaption>
                 <figcaption class="type">Site Web</figcaption>
@@ -86,7 +105,7 @@
             <h2>COMPETENCES</h2>
             <h2>TECHNIQUES</h2>
             <figure>
-                <img src="images/4_COMPETENCES-1-Langages.png" alt="yawo-competences">
+                <img src="assets/images/4_COMPETENCES-1-Langages.png" alt="yawo-competences">
                 <figcaption>
                     <span>LANGUAGES DE PROGRAMMATION</span>
                     <ul>
@@ -103,7 +122,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-2-Frameworks.png" alt="yawo-frameworks">
+                <img src="assets/images/4_COMPETENCES-2-Frameworks.png" alt="yawo-frameworks">
                 <figcaption>
                     <span>FRAMEWORKS</span>
                     <ul>
@@ -118,7 +137,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-3-GestionProjets.png" alt="yawo-gestion">
+                <img src="assets/images/4_COMPETENCES-3-GestionProjets.png" alt="yawo-gestion">
                 <figcaption>
                     <span>GESTION DE PROJETS</span>
                     <ul>
@@ -129,7 +148,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-4-EnvironnementDev.png" alt="yawo-environnementdev">
+                <img src="assets/images/4_COMPETENCES-4-EnvironnementDev.png" alt="yawo-environnementdev">
                 <figcaption>
                     <span>ENVIRONNEMENT DE DEVELOPPEMENT</span>
                     <ul>
@@ -145,7 +164,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-7-Langues.png" alt="yawo-langues">
+                <img src="assets/images/4_COMPETENCES-7-Langues.png" alt="yawo-langues">
                 <figcaption>
                     <span>LANGUES</span>
                     <ul>
@@ -156,7 +175,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-6-SystemesReseaux.png" alt="yawo-systemes">
+                <img src="assets/images/4_COMPETENCES-6-SystemesReseaux.png" alt="yawo-systemes">
                 <figcaption>
                     <span>SYSTEMES ET RESEAUX</span>
                     <ul>
@@ -170,7 +189,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-5-GestionVersion.png" alt="yawo-gestionversion">
+                <img src="assets/images/4_COMPETENCES-5-GestionVersion.png" alt="yawo-gestionversion">
                 <figcaption>
                     <span>GESTION DE VERSION</span>
                     <ul>
@@ -181,7 +200,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-8-BugTracker.png" alt="yawo-tracker">
+                <img src="assets/images/4_COMPETENCES-8-BugTracker.png" alt="yawo-tracker">
                 <figcaption>
                     <span>BUG TRACKER</span>
                     <ul>
@@ -192,7 +211,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-9-Bdd.png" alt="yawo-bdd">
+                <img src="assets/images/4_COMPETENCES-9-Bdd.png" alt="yawo-bdd">
                 <figcaption>
                     <span>BASES DE DONNEES</span>
                     <ul>
@@ -203,7 +222,7 @@
                 </figcaption>
             </figure>
             <figure>
-                <img src="images/4_COMPETENCES-10-CMS.png" alt="yawo-cms">
+                <img src="assets/images/4_COMPETENCES-10-CMS.png" alt="yawo-cms">
                 <figcaption>
                     <span>CMS</span>
                     <ul>
@@ -339,5 +358,7 @@
         <section></section>
         <section></section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

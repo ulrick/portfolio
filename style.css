@@ -1,12 +1,125 @@
-/*font-family: 'Anton', sans-serif;
-font-family: 'Kenia', cursive;
-font-family: 'Open Sans', sans-serif*/
-*{
-    
-    margin: 0;
-    box-sizing: border-box;
-    border: 1px solid red;*/
+/* $primary : #FAC407;
+$secondary-light : #ABB3B3;
+$secondary : #4E5656;
+$dark : #141414; */
+
+@font-face {
+    font-family: "Anton";
+    src: url('./assets/fonts/Anton-Regular.ttf');
 }
-img{
-    vertical-align: top;
+
+@font-face {
+    font-family: "Kenia";
+    src: url('./assets/fonts/Kenia-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('./assets/fonts/OpenSans-Regular.ttf');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    background-color: #141414;;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    font-family:'Anton';
+    font-size: 1.25rem;
+    color: #4E5656;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #141414;
+    background-color: #FAC407;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(171,179,179, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.mantras {
+    background-color: #141414;
+}
+
+.mantras-container {
+    background-image: url("./assets/images/1_HEADER-BG.jpg");
+    height: 500px;
+    background-color: #141414;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: right;
+}
+
+.mantras-content {
+    display: flex;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.presentation {
+    padding: 25px;
+    flex: 1 1 0;
+}
+
+.presentation h1 {
+    font-family: 'Anton';
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #4E5656;
+    letter-spacing: 4px;
+}
+
+.presentation p {
+    color: #ABB3B3;
+    font-size: .7rem;
+}
+
+.esprit {
+    flex: 2 2 300px;
+    padding:0 25px;
+    margin-top: -25px;
+}
+
+.esprit-content {
+    max-width: 300px;
+}
+
+.esprit-content h1 {
+    font-family: 'Kenia';
+    color: #fff;
+    text-align: center;
+}
+
+.esprit-content p {
+    color: #4E5656;
+    font-size: .7rem;
+}
+
+.esprit-content a {
+    font-family: 'Anton';
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FAC407;
+    float: right;
+    line-height: 1;
+}
+
+img.quote1, img.quote2 {
+    width: 50px;
+}
+
+img.quote2 {
+    float: right;
 }
