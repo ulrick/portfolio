@@ -1,0 +1,10 @@
+Jaune : #FAC407
+Gris Clair : #ABB3B3
+Gris Moyen : #4E5656
+Gris Foncé : #141414
+
+Gris Clair du formulaire de contact: #D7DBDB
+
+Kenia
+Anton
+Open Sans
