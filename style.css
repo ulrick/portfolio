@@ -4,6 +4,7 @@ $secondary : #4E5656;
 $dark : #141414; */
 
 @import "./assets/css/header.css";
+@import "./assets/css/project.css";
 
 @font-face {
     font-family: "Anton";
@@ -22,9 +23,23 @@ $dark : #141414; */
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #4E5656
+    color: #4E5656;
 }
 
 .quote {
     width: 55px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Anton';
+    color: #FAC407;
+}
+
+a:hover, a:focus {
+    color: #FAC407;
 }
