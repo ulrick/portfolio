@@ -1,0 +1,103 @@
+.main-title {
+    padding: 25px 0;
+}
+
+.main-title h1 {
+    font-family: 'Kenia';
+    font-size: 7rem;
+    line-height: 0.9;
+    color: #FAC407;
+    text-shadow: 5px 5px #141414;
+    text-transform: uppercase;
+}
+
+.sub-title-link {
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: auto;
+}
+
+.main-block {
+    margin: auto;
+}
+
+.main-block div {
+    padding: 25px;
+}
+
+.main-block div img{
+    width: 100%;
+}
+
+.container-dark {
+    background-color: #141414;
+}
+
+.container-shift {
+    position: relative;
+    top: -60px;
+}
+
+.project-img-block {
+    position: relative;
+}
+
+.project-date, .project-name, .project-type {
+    position: absolute;
+    box-shadow: 2px 2px 10px 1px #141414;
+    text-transform: uppercase;
+}
+
+.project-img-block .project-date {
+    top: 30px;
+    right: 0px;
+    font-family: 'Anton';
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: #FAC407;
+    background-color: #FFF;
+    width: 100px;
+    text-align: center;
+}
+
+.project-img-block .project-name {
+    bottom: 25%;
+    left: 0px;
+    font-family: 'Anton';
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #141414;
+    background-color: #FFF;
+    width: 85%;
+    padding-left: 10px;
+}
+
+.project-img-block .project-type {
+    bottom: 15%;
+    left: 0px;
+    font-size: 70%;
+    font-weight: bold;
+    color: #141414;
+    background-color: #FAC407;
+    width: 85%;
+    padding-left: 10px;
+    box-shadow: 2px 2px 10px 1px #141414;
+    line-height: 1.9;
+}
+
+.competences figure {
+    text-align: center;
+}
+
+.competences h4 {
+    font-family: 'Anton';
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.competences span {
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
