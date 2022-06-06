@@ -10,11 +10,12 @@
     font-family:'Anton';
     font-size: 1.25rem;
     color: #4E5656;
+    transition: ease-out 1s;
 }
 
 .nav-link:hover, .nav-link:focus {
     color: #141414;
-    background-color: #FAC407;
+    box-shadow: inset 400px 0 0 0 #FAC407;
 }
 
 .navbar-toggler-icon {
@@ -22,16 +23,11 @@
 }
 
 .mantras {
-    background-color: #141414;
-}
-
-.mantras-container {
     background-image: url("../images/1_HEADER-BG.jpg");
-    height: 500px;
     background-color: #141414;
     background-repeat: no-repeat;
-    background-size: 35%;
-    background-position-x: right;
+    background-size: contain;
+    background-position: top right;
 }
 
 .mantras-content {
@@ -122,12 +118,12 @@ img.quote2 {
     font-size: 0.95rem;
 }
 
-.quotation-content h3{
+.quotation-content h3 {
     font-family: 'Kenia';
     font-size: 2.5rem;
     color: #141414;
 }
 
-.quotation-content strong{
+.quotation-content strong {
     color: #141414;
 }
