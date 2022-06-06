@@ -4,7 +4,7 @@
 
 .main-title h1 {
     font-family: 'Kenia';
-    font-size: 7rem;
+    font-size: 5.5rem;
     line-height: 0.9;
     color: #FAC407;
     text-shadow: 5px 5px #141414;
@@ -22,11 +22,15 @@
     margin: auto;
 }
 
-.main-block div {
+.main-block article {
+    padding: 15px;
+}
+
+.project-img-block {
     padding: 25px;
 }
 
-.main-block div img{
+.project-img-block img{
     width: 100%;
 }
 
@@ -36,7 +40,12 @@
 
 .container-shift {
     position: relative;
-    top: -60px;
+    top: -55px;
+}
+
+.container-unshift {
+    padding: 25px 0;
+    margin-bottom: 35px;
 }
 
 .project-img-block {
@@ -100,4 +109,121 @@
     text-transform: uppercase;
     font-size: 0.95rem;
     font-weight: bold;
+}
+
+.experience__company, .qualifications__school {
+    font-family: 'Anton';
+    font-size: 2.5rem;
+    color: #4E5656;
+    text-transform: uppercase;
+}
+
+.experience__job {
+    font-size: .80rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.experience__date, .qualifications__date {
+    font-size: 1.1rem;
+    color: #FAC407;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.experience__duration {
+    font-style: italic;
+    font-size: 0.80rem;
+    text-transform: uppercase;
+}
+
+.experience__place, .qualifications__place {
+    font-size: 1.5rem;
+    font-family: 'Anton';
+    text-transform: uppercase;
+}
+
+.experience-detail__title {
+    font-family: 'Kenia';
+    font-size: 2.1rem;
+    color: #FFF;
+}
+
+.experience-detail__detail li {
+    font-size: .75rem;
+    padding-right: 1.2rem;
+    margin-left: 1rem;
+    color: #ABB3B3;
+}
+
+.qualifications__school-desc {
+    color: #ABB3B3;
+    font-size: .80rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.qualifications__place {
+    color: #ABB3B3;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.qualifications-detail__title {
+    font-family: 'Kenia';
+    font-size: 2.2rem;
+    color: #4E5656;
+}
+
+.qualifications-detail__detail li {
+    font-size: .75rem;
+    padding-right: 1.2rem;
+    margin-left: 1rem;
+    color: #4E5656;
+}
+
+.social-life figure {
+    text-align: center;
+}
+
+.social-life h3 {
+    font-family: 'Kenia';
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #FFF;
+}
+
+.social-life span {
+    color: #ABB3B3;
+}
+
+.social-life a {
+    font-family: 'Open Sans';
+}
+
+.social-life img {
+    height: 80px;
+}
+
+.social {
+    background-image: url("../images/7_VIE-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top 2rem;
+}
+
+.follow-me {
+    background-image: url("../images/8_CONTACT-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top 2rem;
+}
+
+.follow-me__social-network {
+    vertical-align: middle;
+    font-family: 'Kenia';
+    padding-left: 15px;
+    color: #4E5656;
 }
