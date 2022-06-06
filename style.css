@@ -4,6 +4,7 @@ $secondary : #4E5656;
 $dark : #141414; */
 
 @import "./assets/css/header.css";
+@import "./assets/css/project.css";
 
 @font-face {
     font-family: "Anton";
@@ -22,9 +23,87 @@ $dark : #141414; */
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #4E5656
+    color: #4E5656;
 }
 
 .quote {
     width: 55px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Anton';
+    color: #FAC407;
+}
+
+a:hover, a:focus {
+    color: #FAC407;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
+span, p {
+    font-size: .75rem;
+}
+
+.footer {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Anton';
+    padding: 2rem;
+}
+
+.footer .main-block > div {
+    padding-bottom: 1rem;
+}
+
+.footer__logo img{
+    width: 50px;
+}
+
+.footer__contact span {
+    font-size: 1rem;
+}
+
+.footer__contact span img {
+    width: 1.1rem;
+}
+
+.footer__network img:nth-of-type(odd)  {
+    margin: 0 0.8rem;
+    width: 1.1rem;
+}
+
+.container-fluid {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+@media (max-width: 576px) {
+    .main-title h1 {
+        font-size: 3.3rem;
+    }
+
+    .container-shift {
+        top: -45px;
+    }
+
+    .experience__company, .qualifications__school {
+        font-size: 2rem;
+    }
+
+    .container-fluid {
+        padding-left: inherit;
+        padding-right: inherit;
+    }
 }
