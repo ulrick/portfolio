@@ -6,14 +6,14 @@
     margin: auto;
 }
 
-.nav-link {
+.nav-link span {
     font-family:'Anton';
     font-size: 1.25rem;
     color: #4E5656;
     transition: ease-out 1s;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link span:hover, .nav-link span:focus {
     color: #141414;
     box-shadow: inset 400px 0 0 0 #FAC407;
 }
@@ -23,6 +23,10 @@
 }
 
 .mantras {
+    background-color: #141414;
+}
+
+.mantras-container {
     background-image: url("../images/1_HEADER-BG.jpg");
     background-color: #141414;
     background-repeat: no-repeat;
@@ -30,17 +34,19 @@
     background-position: top right;
 }
 
-.mantras-content {
-    display: flex;
-}
-
 .logo img {
     width: 20%;
+    transition: 2s filter, transform 2s;
+}
+
+.logo img:hover {
+    filter: contrast(50%) grayscale(1);
+    transform: rotate(45deg);
 }
 
 .presentation {
     padding: 25px;
-    flex: 1 1 0;
+    max-width: 380px;
 }
 
 .presentation h1 {
@@ -53,17 +59,23 @@
 
 .presentation p {
     color: #ABB3B3;
-    font-size: .7rem;
 }
 
 .esprit {
-    flex: 2 2 300px;
     padding:0 25px;
     margin-top: -25px;
+    margin-bottom: 20px;
+    animation: 3s ease-in 2s fade;
+    visibility: hidden;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .esprit-content {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .esprit-content h1 {
@@ -74,7 +86,6 @@
 
 .esprit-content p {
     color: #4E5656;
-    font-size: .7rem;
 }
 
 .esprit-content a {
