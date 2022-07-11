@@ -13,7 +13,7 @@
     transition: ease-out 1s;
 }
 
-.nav-link span:hover, .nav-link span:focus {
+.nav-link span:hover, .nav-link span:focus, .esprit-content a:hover, a.sub-title-link:hover {
     color: #141414;
     box-shadow: inset 400px 0 0 0 #FAC407;
 }
@@ -24,14 +24,11 @@
 
 .mantras {
     background-color: #141414;
-}
-
-.mantras-container {
     background-image: url("../images/1_HEADER-BG.jpg");
-    background-color: #141414;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top right;
+    background-attachment: fixed;
 }
 
 .logo img {
@@ -65,7 +62,7 @@
     padding:0 25px;
     margin-top: -25px;
     margin-bottom: 20px;
-    animation: 3s ease-in 2s fade;
+    animation: 3s ease-in 1s fade;
     visibility: hidden;
 }
 
@@ -97,6 +94,7 @@
     color: #FAC407;
     float: right;
     line-height: 1;
+    transition: ease-out 1s;
 }
 
 img.quote2 {
@@ -108,6 +106,7 @@ img.quote2 {
     margin: auto;
     padding: 25px 0;
     margin-bottom: 35px;
+    min-height: 265px;
 }
 
 .quotation-magi img {

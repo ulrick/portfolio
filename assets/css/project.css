@@ -12,10 +12,12 @@
 }
 
 .sub-title-link {
+    font-family: 'Anton';
     font-size: 17px;
     letter-spacing: 1px;
     text-align: right;
     margin: auto;
+    transition: ease-out 1s;
 }
 
 .main-block {
@@ -24,14 +26,6 @@
 
 .main-block article {
     padding: 15px;
-}
-
-.project-img-block {
-    padding: 25px;
-}
-
-.project-img-block img{
-    width: 100%;
 }
 
 .container-dark {
@@ -48,8 +42,36 @@
     margin-bottom: 35px;
 }
 
+.reveal {
+    transition: 1s all ease;
+    transform: translateY(100px);
+}
+
+.reveal.active {
+    transform: translateY(0);
+}
+
 .project-img-block {
     position: relative;
+    margin-bottom: 25px;
+}
+
+.project-img-block div {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-img-block img {
+    width: 100%;
+    height: auto;
+    transition: all .3s ease-in-out;
+    transform: translateZ(0);
+    opacity: 1;
+}
+
+.project-img-block img:hover {
+    transform: scale(1.08);
+    opacity: .3;
 }
 
 .project-date, .project-name, .project-type {
@@ -71,7 +93,7 @@
 }
 
 .project-img-block .project-name {
-    bottom: 25%;
+    bottom: 20%;
     left: 0px;
     font-family: 'Anton';
     font-size: 1.3rem;
@@ -83,7 +105,7 @@
 }
 
 .project-img-block .project-type {
-    bottom: 15%;
+    bottom: 10%;
     left: 0px;
     font-size: 70%;
     font-weight: bold;
