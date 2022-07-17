@@ -24,7 +24,7 @@
 
 .mantras {
     background-color: #141414;
-    background-image: url("../images/1_HEADER-BG.jpg");
+    background-image: url('../images/1_HEADER-BG-2.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top right;
@@ -137,3 +137,14 @@ img.quote2 {
 .quotation-content strong {
     color: #141414;
 }
+
+/* @media (min-width: 240px) {
+    .mantras {
+        background-color: #141414;
+        background-image: url("../images/1_HEADER-BG-2.jpg");
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: 90% 30%;
+        background-attachment: fixed;
+    }
+} */
