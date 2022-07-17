@@ -119,15 +119,3 @@ span, p {
         padding-right: inherit;
     }
 }
-
-@media (min-width: 1500px) {
-    .mantras {
-        background-color: #141414;
-        background-image: url("./assets/images/1_HEADER-BG.jpg");
-        background-repeat: no-repeat;
-        background-size: 30%;
-        background-position: 90% 30%;
-        background-attachment: fixed;
-    }
-    
-}
