@@ -1,0 +1,19 @@
+- name: deploy-via-scp
+  on:
+  pull_request:
+    branches:
+      - main
+      
+  jobs:
+    deploy:
+      runs-on: ubuntu-latest
+      steps:
+          uses: actions/checkout@v1
+          uses: horochx/deploy-via-scp@master
+          with:
+            local: "./*"
+            remote: ${{ secrets.REMOTE }}
+            host: ${{ secrets.HOST }}
+            port: ${{ secrets.PORT }}
+            user: ${{ secrets.USER }}
+            key: ${{ secrets.KEY }}
